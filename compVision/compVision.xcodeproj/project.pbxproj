@@ -14,6 +14,8 @@
 		3411ABD8217E80010033A619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3411ABD6217E80010033A619 /* LaunchScreen.storyboard */; };
 		3411ABE3217E80010033A619 /* compVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411ABE2217E80010033A619 /* compVisionTests.swift */; };
 		3411ABEE217E80010033A619 /* compVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411ABED217E80010033A619 /* compVisionUITests.swift */; };
+		3411ABFC217EC1990033A619 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3411ABFB217EC1990033A619 /* Inceptionv3.mlmodel */; };
+		3411ABFE217ED35E0033A619 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411ABFD217ED35E0033A619 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3411ABE9217E80010033A619 /* compVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3411ABED217E80010033A619 /* compVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compVisionUITests.swift; sourceTree = "<group>"; };
 		3411ABEF217E80010033A619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3411ABFB217EC1990033A619 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		3411ABFD217ED35E0033A619 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				3411ABCD217E7FFF0033A619 /* AppDelegate.swift */,
+				3411ABFD217ED35E0033A619 /* StartViewController.swift */,
 				3411ABCF217E7FFF0033A619 /* ViewController.swift */,
 				3411ABD1217E7FFF0033A619 /* Main.storyboard */,
 				3411ABD4217E80010033A619 /* Assets.xcassets */,
 				3411ABD6217E80010033A619 /* LaunchScreen.storyboard */,
 				3411ABD9217E80010033A619 /* Info.plist */,
+				3411ABFB217EC1990033A619 /* Inceptionv3.mlmodel */,
 			);
 			path = compVision;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3411ABD0217E7FFF0033A619 /* ViewController.swift in Sources */,
+				3411ABFE217ED35E0033A619 /* StartViewController.swift in Sources */,
+				3411ABFC217EC1990033A619 /* Inceptionv3.mlmodel in Sources */,
 				3411ABCE217E7FFF0033A619 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YD9493M265;
 				INFOPLIST_FILE = compVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YD9493M265;
 				INFOPLIST_FILE = compVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
